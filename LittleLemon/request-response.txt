@@ -1,0 +1,17 @@
+Get the token
+
+
+"Manager" Group
+"DeliveryCrew" Group
+
+I have created a super user using 
+python manage.py createsuperuser
+
+1. Get the token
+curl --location 'http://127.0.0.1:8000/auth/token/login' \
+--form 'username="raghav"' \
+--form 'password="raghav"'
+
+{"auth_token":"75870178c5c2edafe0490dd019aef5b42c3763a7"}
+
+2. 
